@@ -1,0 +1,63 @@
+.tombol4{
+    border-radius: 5px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    color: black;
+  }
+  .tombol4:hover{
+    background-color:white;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.8);
+    color:grey;
+  }
+  
+  .card-row{
+    width:100%;
+    margin:0 5px;
+  }
+  .card-column{
+    width:20% ;
+    float:left;
+    padding:0 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 40px;
+    padding: 45px 45px 90px;
+    margin:0;
+  }
+  .card{
+    background-color: white;
+    border-radius: 5px;
+    padding: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+    height: 200px;
+  }
+  .card:hover{
+    background-color:#F0FFFF;
+    box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.8);
+    border-color:#1E90FF;
+  }
+  .card-title{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.4285714285714286;
+    text-align: left;
+    padding: 0px;
+  }
+  .card-subtitle{
+    font-size: 0.857rem;
+    margin-bottom: 0.5625rem;
+    text-align: left;
+  }
+  
+  .card-body p{
+    line-height: 1.4285714285714286;
+  }
+  

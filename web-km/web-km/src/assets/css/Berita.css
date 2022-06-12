@@ -1,0 +1,26 @@
+.Berita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00699C;
+    color: #fff;
+    height: 80vh;
+    padding: 0 100px;
+    text-align: left;
+  }
+  
+  .Berita img {
+    width: 500px;
+    height: 300px;
+  }
+  
+  @media (max-width: 800px) {
+  
+    .Berita {
+      font-size: 0.5rem;
+    }
+    .Berita img {
+        width: 200px;
+        height: 200px;
+      }
+  }

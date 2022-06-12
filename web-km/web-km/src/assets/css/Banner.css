@@ -1,0 +1,52 @@
+.Banner {
+    background-image: url("https://kampusmerdeka.kemdikbud.go.id/static/media/headline-mahasiswa.mobile.f13ee27a.webp");
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+  }
+  
+  .Banner-info {
+    width: 50%;
+    /* padding: 120px 100px; */
+    margin-left: 100px;
+    padding-top: 120px;
+    text-align: left;
+  }
+  
+  .Banner h1 {
+    color: white;
+  }
+  
+  .Banner p {
+    color: white;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: left;
+    width: 50%;
+
+  }
+
+  .tombolbanner{
+    border-radius: 5px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    width: 270px;
+    height: 40px;
+  }
+
+  .date{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    width: 270px;
+    height: 40px;
+    color:antiquewhite;
+  }

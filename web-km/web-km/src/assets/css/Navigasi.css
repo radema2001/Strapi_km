@@ -1,0 +1,33 @@
+.Navbar {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 4rem;
+    background-color: black;
+    color: white;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  
+  .Navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Navbar ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Navbar li {
+    list-style: none;
+  }
+  
+  .Navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+  }
